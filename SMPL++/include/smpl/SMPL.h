@@ -263,7 +263,7 @@ public: // PUBLIC METHODS
     // Returns Tensor(24, 4, 4)
     torch::Tensor getJointTransformations() const;
     
-    nlohmann::json getModelJson()const;
+    nlohmann::json getModelJson() const;
 };
 
 //=============================================================================

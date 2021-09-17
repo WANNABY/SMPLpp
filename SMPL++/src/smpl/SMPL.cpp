@@ -762,7 +762,7 @@ torch::Tensor SMPL::getJointTransformations() const {
     return m__transformer.getTransformation(); 
 }
 
-nlohmann::json SMPL::getModelJson()const {
+nlohmann::json SMPL::getModelJson() const {
     return m__model;
 }
 //=============================================================================
