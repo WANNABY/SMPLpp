@@ -266,6 +266,8 @@ public: // PUBLIC METHODS
     nlohmann::json getModelJson() const;
     // Returns Tensor(6890, 3, 207)
     torch::Tensor getPoseBlendBasis() const;
+    // Returns Tensor(6890, 3, 10)
+    torch::Tensor getShapeBlendBasis() const;
 };
 
 //=============================================================================
