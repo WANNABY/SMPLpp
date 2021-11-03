@@ -268,6 +268,8 @@ public: // PUBLIC METHODS
     torch::Tensor getPoseBlendBasis() const;
     // Returns Tensor(6890, 3, 10)
     torch::Tensor getShapeBlendBasis() const;
+    // Returns Tensor(2, 24)
+    torch::Tensor getKinematicTree() const;
 };
 
 //=============================================================================
