@@ -774,6 +774,10 @@ torch::Tensor SMPL::getShapeBlendBasis() const {
     return m__shapeBlendBasis.clone().to(m__device);
 }
 
+torch::Tensor SMPL::getKinematicTree() const {
+    return m__kinematicTree.clone().to(m__device);
+}
+
 //=============================================================================
 } // namespace smpl
 //=============================================================================
